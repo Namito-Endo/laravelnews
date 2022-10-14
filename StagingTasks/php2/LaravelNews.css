@@ -1,0 +1,127 @@
+html, body,h2,hr{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Arial", "Helvetica", sans-serif;
+    min-width: 720px;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    border-radius: 10px;
+    height: 60px;
+    width: auto;
+    background-color: rgba(10, 10, 10, 1.0);
+    font-size: 30px;
+}
+.header-logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.header-logo a{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+.back-image{
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://file11-d.kuku.lu/thumbs/20221007-2226_3a6e42509ad4cdce9bbc1d8a7abe5230.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+}
+section{
+    display: inline-block;   
+}
+form{
+    display: block;
+}
+.form-post{
+    max-width: 650px;
+}
+.form-post h2{
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 2px 4px;
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+input,textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+.form-post .input-title,.form-post .input-body,.form-post .input-submit{
+    margin-bottom: 10px;
+}
+.form-post .input-title input,.form-post .input-body textarea{
+    border-radius: 4px;
+    width: 500px;
+    background-color: #fff;
+    transition: background-color 0.1s ease-out;
+}
+.form-post .input-title input:focus,.form-post .input-body textarea:focus{
+    background-color: #ffffc1;
+    transition: background-color 0.1s ease-out;
+}
+.form-post .input-title input{
+    height: 1.4rem;
+}
+.form-post .input-title textarea{
+    resize: none;
+    height: 200px;
+}
+.form-post .input-title label{
+    padding-left: 4px;
+    margin-left: 20px;
+    display: inline-block;
+    padding-top: 0.1rem;
+    vertical-align:top;
+    text-align: right;
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+.form-post .input-body label{
+    padding-left: 5px;
+    margin-left: 52px;
+    display: inline-block;
+    padding-top: 0.1rem;
+    vertical-align:top;
+    text-align: right;
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+.form-post .input-submit{
+    text-align: right;
+}
+.form-post .btn-submit{
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#c0c0c0 10%,white 90%);
+    transition: 1.0s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-post .btn-submit:hover{
+    background-image: linear-gradient(135deg,#c0c0c0 10%,white 90%);
+    transition: 1.0s;
+}
+.bar1{
+    margin:2px 2px 0px 0px ;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #c0c0c0;
+    border: 0;
+}

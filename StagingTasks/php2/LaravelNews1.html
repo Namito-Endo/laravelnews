@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel News</title>
+    <link rel="stylesheet" href="LaravelNews.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+        <a href="LaravelNews1.html">Laravel News</a>
+        </div>
+    </header>
+    <div class="back-image">
+    <section class="form-post">
+        <h2>さぁ、最新のニュースをシェアしましょう</h2>
+        <form id="formPost" method="POST" action="" accept-charset="UTF-8">
+            <div class="input-title">
+                <label for="title">タイトル：</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="input-body">
+                <label for="body">記事：</label>
+                <textarea name="body" id="body" cols="50" rows="10"></textarea>
+            </div>
+            <div class="input-submit">
+                <input class="btn-submit" type="submit" value="投稿">
+            </div>
+        </form>
+    </section>
+    </div>
+    <hr class="bar1">
+    <section class="posts">
+    </section>
+</body>
+</html>

@@ -1,0 +1,39 @@
+html, body,h2,hr{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Arial", "Helvetica", sans-serif;
+    min-width: 720px;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    border-radius: 10px;
+    height: 60px;
+    width: auto;
+    background-color: rgba(10, 10, 10, 1.0);
+    font-size: 30px;
+}
+.header-logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.header-logo a{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+.back-image{
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://file11-d.kuku.lu/thumbs/20221007-2226_3a6e42509ad4cdce9bbc1d8a7abe5230.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+}
